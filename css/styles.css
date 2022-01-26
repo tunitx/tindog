@@ -1,0 +1,195 @@
+body {
+    font-family: "Montserrat";
+   
+}
+
+
+#title
+{
+    background-color: #ff4c68;
+}
+.font
+{
+    font-family: 'Montserrat' ;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+.spacing 
+
+{
+
+ margin: 50px 10px;
+
+}
+
+.iphone {
+   transform: rotate(25deg);
+    position: absolute;
+    width: 70%;
+   
+   
+}
+.img {
+    position: relative;
+    /* height: 550px; */
+    left: 20px;
+}
+.img-set {
+    padding-bottom: 200px;
+}
+/* navigation bar  */
+
+.navbar 
+{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.nav-item {
+    padding: 0 20px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.fontawesome
+{
+    color: #ef8172;
+    padding-bottom: 20px;
+    
+}
+#features
+{
+    text-align: center;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    background-color: #fff;
+    position:relative;
+  
+    
+}
+.fontawesome:hover {
+    color: #ff4c68;
+}
+h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    
+}
+.finfo {
+    color: grey;
+    font-weight: 800;
+}
+#testimonials {
+    background-color: #ef8172;
+   
+   
+    text-align: center;
+    font-family: "Montserrat";
+    
+    color: #fff;
+    
+    
+}
+.carousel-item
+{
+    padding: 8% 15%;
+
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 8%;
+    
+}
+.press-img {
+max-width: 15%;
+height: auto;
+
+
+
+}
+
+.testimony-photo {
+  margin-top: 2.4rem;
+    border-radius: 100%;
+    width: 20%;
+    margin-right: 10px;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-cards{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1110px) {
+.iphone {
+   position: static;
+   transform: rotate(0);
+}
+ #title {
+     text-align: center;
+ }
+ .spacing {
+     margin-bottom: 0;
+ }
+}
+
+@media (max-width: 993px)
+{
+    .spacing {
+        margin-bottom: 50px;
+    }
+    .img-set {
+        padding-bottom: 100px;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 8% 15%;
+    text-align: center;
+    color: #fff;
+     
+}
+.action {
+    font-size: 4rem;
+    font-weight: "Black";
+}
+.action-btn {
+    margin: 50px 20px 0;
+}
+
+#footer {
+    padding: 8% 15%;
+    text-align: center;
+background-color: #fff;
+
+}
+
+.footer-p {
+    color: grey;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.fuck {
+margin: 0 30px 30px 30px;
+}
